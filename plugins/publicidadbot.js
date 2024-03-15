@@ -1,15 +1,12 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.menu);
+  m.reply(global.cmd);
 };
-handler.command = /^(menu)$/i;
+handler.command = /^(cmd)$/i;
 export default handler;
 
-global.menu = `
+global.cmd = `
  ╭━〔 *🦌 Kchuda Creadora 🦌* 〕
 *┃➤ Creador : Kchuda 🦌*
-*┃➤ Instagram : ${md} 😻*
-*┃➤ Activo : ${uptime} 😹*
-*┃➤ Usuarios :  ${rtotalreg}/${totalreg} 🌹*
  ╰━━━━━━━━━━━━━
 
   ╭━〔 *🦌 Kchuda Adquirir 🦌* 〕
