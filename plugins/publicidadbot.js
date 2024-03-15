@@ -1,5 +1,5 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.publicidad);
+  m.reply(global.menu);
 };
 handler.command = /^(menu)$/i;
 export default handler;
