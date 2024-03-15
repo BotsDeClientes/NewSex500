@@ -85,7 +85,7 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 
 let menu =`
  ╭━〔 *🦌 Kchuda Creadora 🦌* 〕
-*┃➤ Creador : Xiio 🦌*
+*┃➤ Creador : Kchuda 🦌*
 *┃➤ Instagram : ${md} 😻*
 *┃➤ Activo : ${uptime} 😹*
 *┃➤ Usuarios :  ${rtotalreg}/${totalreg} 🌹*
@@ -568,7 +568,7 @@ let menu =`
  *┃➤* _${usedPrefix}añadirKchudacoins *@tag cantidad*_
   ╰━━━━━━━━━━━━━
 `.trim()
-await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '𝗕𝗼𝘁 𝗞𝗰𝗵𝘂𝗱𝗮𝘀 🦌', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu.getRandom()}}})
+await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '🦌 𝗕𝗼𝘁 𝗞𝗰𝗵𝘂𝗱𝗮 🦌', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu.getRandom()}}})
 //conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
 	
 } catch (e) {
